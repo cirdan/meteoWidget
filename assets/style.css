@@ -1,0 +1,51 @@
+body{
+	font-family:sans-serif;
+	font-size:11px;
+}
+.periodName, .temperature, .wind{
+	display:block;
+	text-align: center;
+}
+.periodName{
+	font-weight:bold;
+}
+.icon{
+	background-image: url("../assets/w-icons.png");
+	height:90px;
+	width: 100px;
+}
+.period{
+	float:left;
+	margin:10px 20px 30px 0px;
+	padding:10px 20px 10px 10px;
+	border-right:1px dotted #ccc;
+}
+.symbol-1 .icon{
+	background-position:0px -10px;
+}
+.symbol-2 .icon{
+	background-position:-83px -10px;
+}
+.symbol-3 .icon{
+	background-position:-265px -10px;
+}
+.symbol-4 .icon{
+	background-position:0px -110px;
+}
+.symbol-5 .icon{
+	background-position:-388px -98px;
+}
+.symbol-9 .icon{
+	background-position:-280px -100px;
+}
+.wind .arrow::before {
+	content: "\2191";
+}
+.wind .arrow {
+	float:left;
+	display:block;
+	font-size:20px;
+	text-align:center;
+	width:25px;
+	height:25px;
+}
